@@ -1,0 +1,11 @@
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\bin\Debug\netcoreapp2.1\HelloGitHub.deps.json
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\bin\Debug\netcoreapp2.1\HelloGitHub.runtimeconfig.json
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\bin\Debug\netcoreapp2.1\HelloGitHub.runtimeconfig.dev.json
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\bin\Debug\netcoreapp2.1\HelloGitHub.dll
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\bin\Debug\netcoreapp2.1\HelloGitHub.pdb
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\obj\Debug\netcoreapp2.1\HelloGitHub.csprojAssemblyReference.cache
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\obj\Debug\netcoreapp2.1\HelloGitHub.csproj.CoreCompileInputs.cache
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\obj\Debug\netcoreapp2.1\HelloGitHub.AssemblyInfoInputs.cache
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\obj\Debug\netcoreapp2.1\HelloGitHub.AssemblyInfo.cs
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\obj\Debug\netcoreapp2.1\HelloGitHub.dll
+D:\Work\St. Francis\Comp494Fall2018\weekly-samples\Week1\HelloGitHub\obj\Debug\netcoreapp2.1\HelloGitHub.pdb
