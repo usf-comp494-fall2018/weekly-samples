@@ -5,3 +5,7 @@
 /Week1/.vs/Week1/v15
 /Week1/HelloGitHub/bin/Debug/netcoreapp2.1
 /Week1/HelloGitHub/obj
+/.vs
+/Week1/MyFirstCsProj/obj
+/Week1/MyFirstCsProj/bin/Debug/netcoreapp2.0
+/Week1/HelloGitHub/bin/Debug/netcoreapp2.0
