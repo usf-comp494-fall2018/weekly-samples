@@ -16,3 +16,7 @@
 /Week2/ReadingInput/obj
 /Week2/Arguments/bin/Debug/netcoreapp2.1
 /Week2/Arguments/obj
+/.vs
+/Week1/MyFirstCsProj/obj
+/Week1/MyFirstCsProj/bin/Debug/netcoreapp2.0
+/Week1/HelloGitHub/bin/Debug/netcoreapp2.0
