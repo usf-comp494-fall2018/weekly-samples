@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorials", "Factorials\Fa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debugging", "Debugging\Debugging.csproj", "{77D07AC1-D1EE-4BE9-BB0C-D8F63213DF68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{45030E2D-B8D2-4EEE-9AE4-9F7AC6344593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logging\Logging.csproj", "{45030E2D-B8D2-4EEE-9AE4-9F7AC6344593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{8FC1A752-37EF-450A-91B6-444CF4C3BABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{8FC1A752-37EF-450A-91B6-444CF4C3BABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{BD29C361-66AB-4208-8BB2-0F4AE0E05DA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8FC1A752-37EF-450A-91B6-444CF4C3BABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC1A752-37EF-450A-91B6-444CF4C3BABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC1A752-37EF-450A-91B6-444CF4C3BABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD29C361-66AB-4208-8BB2-0F4AE0E05DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD29C361-66AB-4208-8BB2-0F4AE0E05DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD29C361-66AB-4208-8BB2-0F4AE0E05DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD29C361-66AB-4208-8BB2-0F4AE0E05DA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
