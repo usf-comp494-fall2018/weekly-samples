@@ -40,3 +40,10 @@
 /Week4/Logging/Log.txt
 /Week4/CalculatorLib/bin/Debug/netstandard2.0
 /Week4/CalculatorLib/obj
+/Week5/.vs/Week5
+/Week5/ClassAspectExamples/bin/Debug/netstandard2.0
+/Week5/ClassAspectExamples/obj
+/Week5/PassingParameters/bin/Debug/netcoreapp2.1
+/Week5/PassingParameters/obj
+/Week5/ShapeApp/bin/Debug/netcoreapp2.1
+/Week5/ShapeApp/obj
