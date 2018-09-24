@@ -40,6 +40,8 @@
 /Week4/Logging/Log.txt
 /Week4/CalculatorLib/bin/Debug/netstandard2.0
 /Week4/CalculatorLib/obj
+/Week4/CalculatorLibUnitTests/bin/Debug/netcoreapp2.1
+/Week4/CalculatorLibUnitTests/obj
 /Week5/.vs/Week5
 /Week5/ClassAspectExamples/bin/Debug/netstandard2.0
 /Week5/ClassAspectExamples/obj
