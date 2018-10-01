@@ -41,7 +41,7 @@ namespace PeopleLibrary
 }
 
 /******************************************************************************
-    Program.cs
+    Program.cs - PeopleSortApp
 ******************************************************************************/
 
             Console.WriteLine("Use PersonComparer's IComparer implementation to sort:");
@@ -50,3 +50,21 @@ namespace PeopleLibrary
             {
                 Console.WriteLine($"{person.Name}");
             }
+
+/******************************************************************************
+    Program.cs - EmployeeApp
+******************************************************************************/
+            e1.EmloyeeCode = "JJ001";
+            e1.HireDate = new DateTime(2014, 11, 23);
+            Console.WriteLine($"{e1.Name} was hired on {e1.HireDate:dd/MM/yyyy}");
+
+/******************************************************************************
+    Employee.cs
+******************************************************************************/
+        public void WriteToConsole()
+        {
+            Console.WriteLine($"{Name}'s age is {Age} and hire date was {HireDate:dd/MM/yyyy}");
+        }
+
+        public string EmloyeeCode { get; set; }
+        public DateTime HireDate { get; set; }
