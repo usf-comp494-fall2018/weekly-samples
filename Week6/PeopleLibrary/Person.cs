@@ -2,7 +2,7 @@
 
 namespace PeopleLibrary
 {
-    public class Person
+    public class Person : IComparable<Person>
     {
         /****************************************
             Constructors
@@ -16,9 +16,17 @@ namespace PeopleLibrary
         /****************************************
             Methods
         ****************************************/
-        public void WriteToConsole()
+        public virtual void WriteToConsole()
         {
             Console.WriteLine($"{Name} is {Age} years old!");
+        }
+
+        /****************************************
+            IComparable Implementation
+        ****************************************/
+        public int CompareTo(Person other)
+        {
+            return Name.CompareTo(other.Name);
         }
 
         /****************************************
