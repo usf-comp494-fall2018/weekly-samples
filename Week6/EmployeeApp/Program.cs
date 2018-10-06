@@ -12,7 +12,12 @@ namespace EmployeeApp
                 Name = "John Jones",
                 Age = 25
             };
+            e1.EmloyeeCode = "JJ001";
+            e1.HireDate = new DateTime(2014, 11, 23);
+            Console.WriteLine($"{e1.Name} was hired on {e1.HireDate:dd/MM/yyyy}");
             e1.WriteToConsole();
+            Person p1 = e1;
+            p1.WriteToConsole();
         }
     }
 }
