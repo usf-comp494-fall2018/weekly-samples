@@ -70,3 +70,6 @@
 /Week7/WorkingWithFileSystems/obj
 /Week7/.vs/Week7/DesignTimeBuild
 /Week7/WorkingWithSerialization/obj
+/Week7/Bogus/bin/Debug/netcoreapp2.1
+/Week7/Bogus/obj
+/Week7/WorkingWithSerialization/bin/Debug/netcoreapp2.1

@@ -12,7 +12,7 @@ namespace WorkingWithFileSystems
             //WorkWithDrives();
             //WorkWithDirectories();
             //WorkWithFiles();
-            //WorkWithXml();
+            WorkWithXml();
         }
 
         private static void OutputFileSystemInfo()
