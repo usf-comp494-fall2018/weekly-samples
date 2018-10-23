@@ -9,11 +9,11 @@ namespace Week8
     {
         static void Main(string[] args)
         {
-            ListCategories();
+            //ListCategories();
             //InsertCategory();
             //EditCategory();
             //DeleteCategory();
-            //LookupCustomer();
+            LookupCustomer();
         }
 
         private static void ListCategories()
@@ -46,7 +46,7 @@ namespace Week8
         {
             using (var db = new NorthwindContext())
             {
-                var category = db.Categories.First(c => c.CategoryName == "Flimflams");
+                var category = db.Categories.FirstOrDefault(c => c.CategoryName == "Flimflams");
                 if(category == null)
                 {
                     Console.WriteLine("Sorry, I can't find a category with the name 'Flimflams'");
@@ -63,7 +63,7 @@ namespace Week8
         {
             using (var db = new NorthwindContext())
             {
-                var category = db.Categories.First(c => c.CategoryName == "Flimflams");
+                var category = db.Categories.FirstOrDefault(c => c.CategoryName == "Flimflams");
                 if (category == null)
                 {
                     Console.WriteLine("Sorry, I can't find a category with the name 'Flimflams'");
