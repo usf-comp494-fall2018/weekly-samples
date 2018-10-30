@@ -9,7 +9,7 @@ namespace LinqWithEFCore
         static void Main(string[] args)
         {
             //ProductsUnderTen1();
-            //ProductsUnderTen2();
+            ProductsUnderTen2();
         }
 
         private static void ProductsUnderTen1()

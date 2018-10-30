@@ -21,7 +21,9 @@ namespace LinqWithEFCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string[] filePathParts = { "Work", "St. Francis", "Comp494Fall2018", "weekly-samples", "Week9", "LinqWithEFCore", "Northwind.db" };
+            //C:\Comp494
+            //string[] filePathParts = { "Work", "St. Francis", "Comp494Fall2018", "weekly-samples", "Week9", "LinqWithEFCore", "Northwind.db" };
+            string[] filePathParts = { "Comp494", "weekly-samples", "Week9", "LinqWithEFCore", "Northwind.db" };
             string filePath = Path.Combine(filePathParts);
             if (!optionsBuilder.IsConfigured)
             {
