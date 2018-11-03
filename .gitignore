@@ -85,3 +85,10 @@
 /Week9/LinqWithEFCore/obj
 /Week9/WorkingWithSets/bin/Debug/netcoreapp2.1
 /Week9/WorkingWithSets/obj
+/Week10/.vs/Week10/v15
+/Week10/MonitoringApp/bin/Debug/netcoreapp2.1
+/Week10/MonitoringApp/obj
+/Week10/MonitoringLib/bin/Debug/netstandard2.0
+/Week10/MonitoringLib/obj
+/Week10/WorkingWithTasks/bin/Debug/netcoreapp2.1
+/Week10/WorkingWithTasks/obj
