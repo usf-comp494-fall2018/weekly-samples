@@ -8,7 +8,7 @@ namespace Week9
         static void Main(string[] args)
         {
             // Filter using explicit delegate instantiation
-            LinqWithNamedFunction1();
+            //LinqWithNamedFunction1();
             
             // Filter removing the explicit delegate instantiation
             //LinqWithNamedFunction2();
@@ -17,7 +17,7 @@ namespace Week9
             //LinqWithLambda();
             
             // Sort our Results
-            //LinqWithLambdaAndSort();
+            LinqWithLambdaAndSort();
         }
 
         static void LinqWithNamedFunction1()
@@ -59,7 +59,8 @@ namespace Week9
         {
             var names = new string[] { "Michael", "Pam", "Jim", "Dwight", "Angela", "Kevin", "Toby", "Creed" };
             var query = names.Where(name => name.Length > 4)
-                .OrderBy(name => name.Length);
+                .OrderByDescending(name => name.Length)
+                .ThenBy(name => name);
             foreach (string item in query)
             {
                 Console.WriteLine(item);
