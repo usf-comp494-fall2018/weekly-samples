@@ -92,3 +92,7 @@
 /Week10/MonitoringLib/obj
 /Week10/WorkingWithTasks/bin/Debug/netcoreapp2.1
 /Week10/WorkingWithTasks/obj
+/Week10/.vs/Week10/DesignTimeBuild
+/Week11/.vs
+/Week11/NorthwindMvc/bin/Debug/netcoreapp2.1
+/Week11/NorthwindMvc/obj
