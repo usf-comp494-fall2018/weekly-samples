@@ -10,22 +10,22 @@ namespace NorthwindMvc.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
         //public IActionResult Index()
         //{
-        //    var db = new NorthwindContext();
-        //    var model = new HomeIndexViewModel()
-        //    {
-        //        VisitorCount = (new Random()).Next(1, 1001),
-        //        Categories = db.Categories.ToList(),
-        //        Products = db.Products.ToList()
-        //    };
-        //    return View(model);
+        //    return View();
         //}
+
+        public IActionResult Index()
+        {
+            var db = new NorthwindContext();
+            var model = new HomeIndexViewModel()
+            {
+                VisitorCount = (new Random()).Next(1, 1001),
+                Categories = db.Categories.ToList(),
+                Products = db.Products.ToList()
+            };
+            return View(model);
+        }
 
         public IActionResult About()
         {
