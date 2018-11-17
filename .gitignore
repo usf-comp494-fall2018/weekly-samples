@@ -96,3 +96,10 @@
 /Week11/.vs
 /Week11/NorthwindMvc/bin/Debug/netcoreapp2.1
 /Week11/NorthwindMvc/obj
+/Week12/.vs
+/Week12/ConsumeNorthwindService/bin/Debug/netcoreapp2.1
+/Week12/ConsumeNorthwindService/obj
+/Week12/NorthwindLibrary/bin/Debug/netstandard2.0
+/Week12/NorthwindLibrary/obj
+/Week12/NorthwindService/bin/Debug/netcoreapp2.1
+/Week12/NorthwindService/obj
