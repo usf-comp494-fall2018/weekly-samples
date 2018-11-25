@@ -26,21 +26,5 @@ namespace FluentUwpApp
         {
             this.InitializeComponent();
         }
-
-        private void ClickMeButton_Click(object sender, RoutedEventArgs e)
-        {
-            clickMeButton.Content = DateTime.Now.ToString("hh:mm:ss");
-        }
-
-        private void Page_Loaded(object sender, RoutedEventArgs e)
-        {
-            foreach(Button b in gridCalculator.Children.OfType<Button>())
-            {
-                b.FontSize = 24;
-                b.Width = 54;
-                b.Height = 54;
-                b.Style = Resources.ThemeDictionaries["ButtonRevealStyle"] as Style;
-            }
-        }
     }
 }
