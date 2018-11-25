@@ -103,3 +103,11 @@
 /Week12/NorthwindLibrary/obj
 /Week12/NorthwindService/bin/Debug/netcoreapp2.1
 /Week12/NorthwindService/obj
+/FinalProjectService/.vs
+/FinalProjectService/FinalProjectService/bin
+/FinalProjectService/FinalProjectService/obj
+/Week13/.vs/Week13/v15
+/Week13/FluentUwpApp/bin/x64/Debug
+/Week13/FluentUwpApp/obj
+/Week13/NorthwindUwp/bin/x64/Debug
+/Week13/NorthwindUwp/obj

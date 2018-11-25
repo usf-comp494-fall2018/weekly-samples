@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="NorthwindUwp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NorthwindUwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Padding="4" Background="LightGray" Name="toolbar">
+                <ComboBox Name="comboDataSource" PlaceholderText="Pick a type" Width="200" Margin="6" Padding="6" VerticalAlignment="Center">
+                    <x:String>Customers</x:String>
+                    <x:String>Categories</x:String>
+                    <x:String>Products</x:String>
+                    <x:String>Suppliers</x:String>
+                </ComboBox>
+                <TextBlock Text="Name:" VerticalAlignment="Center" Margin="4" />
+                <TextBox Name="tbCriteria" PlaceholderText="Enter type name" VerticalAlignment="Center" Width="200" />
+                <Button Margin="6" Padding="6" Name="getResultsButton" Click="GetResultsButton_Click">
+                    Get Results
+                </Button>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <ListView Name="lvResults" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <StackPanel Orientation="Horizontal" Margin="10">
+                                    <Image Height="48" Width="48" Source="{Binding ImagePath}" />
+                                    <StackPanel Orientation="Vertical" Margin="10">
+                                        <TextBlock Text="{Binding DisplayName}" FontSize="24" FontWeight="Bold" />
+                                        <TextBlock Text="{Binding DisplayDetails}" FontSize="16" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
