@@ -108,7 +108,7 @@ PM> Install-Package Microsoft.Toolkit.Uwp.UI.controls
 
     <Grid>
         <StackPanel>
-            <StackPanel Orientation="Horizontal" Padding="4" Background="LightGray" Name="toolbar">
+            <StackPanel Orientation="Horizontal" Padding="4" Background="DarkGray" Name="toolbar">
                 <Button Margin="6" Padding="6" Name="clickMeButton" Click="ClickMeButton_Click">
                     Click Me
                 </Button>
