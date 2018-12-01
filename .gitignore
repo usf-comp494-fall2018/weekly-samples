@@ -112,3 +112,8 @@
 /Week13/NorthwindUwp/bin/x64/Debug
 /Week13/NorthwindUwp/obj
 /FinalProjectService/FinalProjectService/Properties/PublishProfiles
+/NorthwindMobile/.vs/NorthwindMobile/v15
+/NorthwindMobile/NorthwindMobile/NorthwindMobile.Android/bin/Debug
+/NorthwindMobile/NorthwindMobile/NorthwindMobile.Android/obj
+/NorthwindMobile/NorthwindMobile/NorthwindMobile.iOS/bin/iPhoneSimulator/Debug
+/NorthwindMobile/NorthwindMobile/NorthwindMobile.iOS/obj
