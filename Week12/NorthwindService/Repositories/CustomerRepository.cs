@@ -20,7 +20,7 @@ namespace NorthwindService.Repositories
             // pre-load customers from database as a normal
             // Dictionary with CustomerID as the key,
             // then convert to a thread-safe ConcurrentDictionary
-            if(customersCache == null)
+            if (customersCache == null)
             {
                 customersCache = new ConcurrentDictionary<string, Customers>(
                     db.Customers.ToDictionary(c => c.CustomerId));
@@ -37,7 +37,7 @@ namespace NorthwindService.Repositories
 
             int affected = await db.SaveChangesAsync();
 
-            if(affected == 1)
+            if (affected == 1)
             {
                 // if the customer is new, add it to cache, else
                 // call UpdateCache method
@@ -57,7 +57,8 @@ namespace NorthwindService.Repositories
 
         public async Task<Customers> RetrieveAsync(string id)
         {
-            return await Task.Run(() => {
+            return await Task.Run(() =>
+            {
                 // for performance, get from cache
                 id = id.ToUpper();
                 customersCache.TryGetValue(id, out Customers c);
@@ -67,9 +68,9 @@ namespace NorthwindService.Repositories
 
         private Customers UpdateCache(string id, Customers c)
         {
-            if(customersCache.TryGetValue(id, out Customers old))
+            if (customersCache.TryGetValue(id, out Customers old))
             {
-                if(customersCache.TryUpdate(id, c, old))
+                if (customersCache.TryUpdate(id, c, old))
                 {
                     return c;
                 }
@@ -89,7 +90,7 @@ namespace NorthwindService.Repositories
                 db.Customers.Update(c);
                 int affected = db.SaveChanges();
 
-                if(affected == 1)
+                if (affected == 1)
                 {
                     // update in cache
                     return Task.Run(() => UpdateCache(id, c));
@@ -108,7 +109,7 @@ namespace NorthwindService.Repositories
                 Customers c = db.Customers.Find(id);
                 db.Customers.Remove(c);
                 int affected = db.SaveChanges();
-                if(affected == 1)
+                if (affected == 1)
                 {
                     // remove from cache
                     return Task.Run(() => customersCache.TryRemove(id, out c));
